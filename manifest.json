@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "arXiv to AlphaXiv",
+    "version": "1.0",
+    "description": "Automatically redirects arXiv links to AlphaXiv.",
+    "permissions": [
+      "webNavigation",
+      "tabs"
+    ],
+    "host_permissions": [
+      "*://arxiv.org/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
